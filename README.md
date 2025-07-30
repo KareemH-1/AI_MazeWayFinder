@@ -48,11 +48,11 @@ Open your terminal or command prompt:
 ```bash
 g++ main.cpp -o MazeSolver
 MazeSolver
-
+```
 Or compile using your preferred IDE (Code::Blocks, Visual Studio, CLion, etc.)
 Make sure maze.txt is in the same working directory as your executable.
 
-📥 Example Maze
+📥 Example Output of the Maze in the maze.txt
 ################## 
 #### ##  ##*****E#
 #### ## ###*######
