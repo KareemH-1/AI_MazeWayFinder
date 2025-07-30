@@ -53,6 +53,8 @@ Or compile using your preferred IDE (Code::Blocks, Visual Studio, CLion, etc.)
 Make sure maze.txt is in the same working directory as your executable.
 
 📥 Example Output of the Maze in the maze.txt
+
+```
 ################## 
 #### ##  ##*****E#
 #### ## ###*######
@@ -66,6 +68,7 @@ Make sure maze.txt is in the same working directory as your executable.
 #S*******        #
 ##################
 🧮 Total Steps: 27
+```
 
 ⚠️ Important Notes
 If either S or E is missing from the input file, the program will exit with an error.
