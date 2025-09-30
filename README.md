@@ -6,16 +6,6 @@ A C++ console application that reads a maze from a text file and solves it using
 
 ---
 
-## 📁 Project Structure
-AI_MazeWayFinder/
-│
-├── maze.txt # Input maze file
-├── mazeFinderAI.cpp # C++ source code
-└── README.md # Project documentation
-
-
----
-
 ## 🧩 Maze Format
 
 Maze should be a plain text file (`maze.txt`) using the following characters:
@@ -39,21 +29,7 @@ Maze should be a plain text file (`maze.txt`) using the following characters:
 - Displays total number of steps
 - Shows a warning if no path is found
 
----
-
-## 💻 Compilation (Windows)
-
-Open your terminal or command prompt:
-
-```bash
-g++ main.cpp -o MazeSolver
-MazeSolver
-```
-Or compile using your preferred IDE (Code::Blocks, Visual Studio, CLion, etc.)
-Make sure maze.txt is in the same working directory as your executable.
-
 📥 Example Output of the Maze in the maze.txt
-
 ```
 ################## 
 #### ##  ##*****E#
@@ -74,5 +50,3 @@ Make sure maze.txt is in the same working directory as your executable.
 If either S or E is missing from the input file, the program will exit with an error.
 
 If no path is found from S to E, a message is displayed.
-
-Console color output requires a Windows terminal (e.g., PowerShell, CMD, or Windows Terminal).
